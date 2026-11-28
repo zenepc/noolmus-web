@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>Noolmuş?</title>
+    <meta name="description" content="Dünyada bugün ne oldu? Doğrulanmış kaynaklardan, sade bir Türkçeyle." />
+    <!-- Tasarım paketi › parcalar/html-head.html. /noolmus-web is filled in by scripts/build-web.mjs -->
+    <!-- Light by default; the app updates this when the reader switches to dark mode -->
+    <meta name="theme-color" content="#F8F3EA" />
+    <link rel="icon" href="/noolmus-web/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/noolmus-web/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/noolmus-web/apple-touch-icon.png" />
+    <link rel="manifest" href="/noolmus-web/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Noolmuş?" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        overflow: hidden;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+      /* Page background before the app renders (no white flash) */
+      body {
+        background: #f8f3ea;
+      }
+      /* Keyboard focus ring: 2px "focus" token */
+      :focus-visible {
+        outline: 2px solid #f4923f;
+        outline-offset: 2px;
+      }
+      :root[style*='color-scheme: dark'] :focus-visible {
+        outline-color: #f6a260;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>Bu sayfa için JavaScript gerekiyor.</noscript>
+    <div id="root"></div>
+  <script src="/noolmus-web/_expo/static/js/web/entry-692b0b3422448eca622cda4c851e944b.js" defer></script>
+</body>
+</html>
